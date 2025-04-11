@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -8,61 +7,95 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff8f1;
       margin: 0;
       padding: 0;
+      background: #fff6f0;
+      color: #333;
       text-align: center;
     }
-    .container {
-      max-width: 600px;
-      margin: 50px auto;
-      padding: 20px;
+
+    header {
+      background-color: #ffaf7b;
+      padding: 40px 20px 20px;
     }
+
     h1 {
-      color: #333;
       font-size: 28px;
+      margin-bottom: 10px;
     }
+
     p {
-      color: #444;
       font-size: 18px;
-      margin-bottom: 20px;
+      max-width: 700px;
+      margin: 10px auto 30px;
+      line-height: 1.5;
     }
-    img {
-      max-width: 100%;
+
+    .image-container {
+      margin: 20px auto;
+    }
+
+    .image-container img {
+      width: 200px;
       height: auto;
-      border-radius: 10px;
-      margin-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     }
-    .button {
-      background-color: #F7941D;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-      cursor: pointer;
-      text-decoration: none;
+
+    .cta-button {
       display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      font-size: 18px;
+      background-color: #ff7f50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
     }
-    .footer {
-      margin-top: 40px;
-      font-size: 12px;
-      color: #777;
+
+    .cta-button:hover {
+      background-color: #ff5a26;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    footer a {
+      color: #666;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+
+  <header>
     <h1>Guia Completo - Introdução Alimentar de Sucesso</h1>
-    <p>Aprenda como conduzir a introdução alimentar do seu bebê de forma segura, eficaz e gentil.</p>
-    
-    <img src="https://images.unsplash.com/photo-1581078426770-6e8e0b4341dc?auto=format&fit=crop&w=600&q=80" alt="Introdução alimentar"/>
+    <p>Aprenda como conduzir a introdução alimentar do seu bebê de forma segura, eficaz e gentil com a nutricionista Thalita Müller.</p>
+    <div class="image-container">
+      <img src="https://instagram.fsdu36-1.fna.fbcdn.net/v/t51.2885-19/380372058_1700376037061834_3982223229743470604_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fsdu36-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=WRoFgYXuRjIQ7kNvgFXPO6N&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AYDPoI63dW1EMdnpvHixGImihAH_VfGh4vcLMKsTQkJuNg&oe=66190277&_nc_sid=ee9879" alt="Thalita Müller - Nutricionista"/>
+    </div>
+    <a class="cta-button" href="https://go.hotmart.com/W99135697U" target="_blank">Quero meu guia</a>
+  </header>
 
-    <a href="https://go.hotmart.com/W99135697U" target="_blank" class="button">
-      Quero meu guia
-    </a>
+  <footer>
+    <p>
+      <a href="#">Política de Privacidade</a> |
+      <a href="#">Termos de Uso</a> |
+      <a href="mailto:seuemail@email.com">Contato</a>
+    </p>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
 
-    <footer style="text-align: center; font-size: 14px; margin-top: 40px; color: #666;">
-  <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a> | <a href="mailto:seuemail@email.com">Contato</a></p>
-  <p>&copy; 2025 - Todos os direitos reservados</p>
-</footer>
+</body>
+</html>
